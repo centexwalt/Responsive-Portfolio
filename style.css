@@ -216,3 +216,25 @@ body {
     border: 0 none;
   }
   
+  @media only screen and (max-width: 980px) {
+    /* For mobile phones: */
+    [class*="work"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+    [class*="work"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+  /* For tablets: */
+    [class*="work"] {
+        width: 100%;
+        position: static;
+    }
+}
+
